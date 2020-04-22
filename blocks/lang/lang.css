@@ -1,0 +1,17 @@
+@import url(../lang/_active/lang_active.css);
+
+.lang {
+    margin: 0;
+    padding: 5px 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
