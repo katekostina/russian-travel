@@ -16,3 +16,7 @@
 **Описание**
 
 Проект адаптивный. Сделан на html и css.
+
+**Проект в GitPages**
+
+* [Ссылка на проект](https://katekostina.github.io/russian-travel/)
