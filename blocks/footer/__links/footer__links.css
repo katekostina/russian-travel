@@ -1,0 +1,14 @@
+.footer__links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.footer__links li {
+    margin-right: 18px;
+}
+
+.footer__links li:last-of-type {
+    margin-right: 0;
+}

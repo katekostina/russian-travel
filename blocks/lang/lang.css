@@ -8,7 +8,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-gap: 18px;
-    font-family: Inter;
+    font-family: 'Inter', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;

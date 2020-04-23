@@ -1,8 +1,8 @@
-.intro__title {
+.place__title {
     margin: 0;
     font-family: 'Inter', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 54px;
-    line-height: 58px;
+    font-size: 72px;
+    line-height: 76px;
 }
