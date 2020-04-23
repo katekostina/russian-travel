@@ -8,5 +8,9 @@
 }
 
 .cover__overlay:hover {
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
     opacity: 0.8;
 }
