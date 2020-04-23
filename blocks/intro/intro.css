@@ -2,6 +2,28 @@
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
 
+/* --- General styles --- */
 .intro {
     padding: 92px 148px;
+}
+
+/* --- Big tablets --- */
+@media screen and (max-width: 1024px) {
+    .intro {
+        padding: 92px 48px;
+    }
+}
+
+/* --- Big mobile phones --- */
+@media screen and (max-width: 768px) {
+    .intro {
+        padding: 88px 24px;
+    }
+}
+
+/* --- Small mobile phones --- */
+@media screen and (max-width: 320px) {
+    .intro {
+        padding: 64px 16px;
+    }
 }

@@ -1,4 +1,19 @@
+/* --- General styles --- */
 .lead__figure {
     margin: 0;
     padding: 0 148px;
+}
+
+/* --- Big tablets --- */
+@media screen and (max-width: 1024px) {
+    .lead__figure {
+        padding: 0 48px;
+    }
+}
+
+/* --- Big mobile phones and smaller --- */
+@media screen and (max-width: 768px) {
+    .lead__figure {
+        padding: 0;
+    }
 }

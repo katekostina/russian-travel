@@ -1,5 +1,6 @@
+/* --- General styles --- */
 .cover__subtitle {
-    margin: 32px 0 0;
+    margin: 32px auto 0;
     max-width: 360px;
     font-family: 'Inter', 'Helvetica', sans-serif;
     font-style: normal;
@@ -9,4 +10,13 @@
     text-align: center;
     color: #fff;
     z-index: 2;
+}
+
+/* --- Small devices --- */
+@media screen and (max-width: 720px) {
+    .cover__subtitle {
+        max-width: 288px;
+        font-size: 14px;
+        line-height: 16px;
+    }
 }

@@ -1,3 +1,5 @@
+/* --- General styles --- */
+
 @import url(../lang/_active/lang_active.css);
 
 .lang {
@@ -13,5 +15,13 @@
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
+}
+
+/* --- 320 or less --- */
+@media screen and (max-width: 320px) {
+    .lang {
+        font-size: 18px;
+        line-height: 24px;
+    }
 }
 

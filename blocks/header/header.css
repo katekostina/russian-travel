@@ -1,6 +1,22 @@
+/* --- General styles --- */
 .header {
-    margin: 28px 48px 0;
+    padding: 28px 48px 0;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 }
+
+/* --- 768 or less --- */
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 28px 24px 0;
+    }
+}
+
+/* --- 320 or less --- */
+@media screen and (max-width: 320px) {
+    .header {
+        padding: 16px 16px 0;
+    }
+}
+

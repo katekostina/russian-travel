@@ -1,7 +1,8 @@
+/* --- General styles --- */
 .lead__subtitle {
     max-width: 640px;
     margin: 0 auto;
-    padding: 24px 0 64px;
+    padding: 24px 16px 64px;
     text-align: center;
     font-family: 'Inter', 'Helvetica', sans-serif;
     font-style: normal;
@@ -9,3 +10,20 @@
     font-size: 30px;
     line-height: 36px;
 }
+
+/* --- Big tablets --- */
+@media screen and (max-width: 1024px) {
+    .lead__subtitle {
+        padding: 24px 16px 56px;
+    }
+}
+
+/* --- Small devices --- */
+@media screen and (max-width: 720px) {
+    .lead__subtitle {
+        padding: 16px 16px 40px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+

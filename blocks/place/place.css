@@ -5,16 +5,43 @@
 @import url(./__link/place__link.css);
 @import url(./__paragraph/place__paragraph.css);
 
+/* --- General styles --- */
 .place {
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-columns: 460px auto;
     grid-auto-flow: column;
-    grid-row-gap: 40px;
+    grid-template-columns: 19fr 20fr;
     grid-column-gap: 40px;
+    grid-row-gap: 48px;
     margin-bottom: 90px;
 }
 
 .place:last-of-type {
     margin-bottom: 0;
+}
+
+/* --- Big tablets --- */
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-column-gap: 32px;
+        margin-bottom: 84px;
+    }
+}
+
+/* --- Big phones --- */
+@media screen and (max-width: 768px) {
+    .place {
+        grid-column-gap: 28px;
+        margin-bottom: 72px;
+    }
+}
+
+/* --- Small phones --- */
+@media screen and (max-width: 720px) {
+    .place {
+        grid-auto-flow: row;
+        grid-row-gap: 32px;
+        grid-template-columns: 1fr;
+        margin-bottom: 48px;
+    }
 }

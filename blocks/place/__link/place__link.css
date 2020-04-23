@@ -7,3 +7,7 @@
     line-height: 22px;
     color: white;
 }
+
+.place__link:hover {
+    opacity: 0.8;
+}

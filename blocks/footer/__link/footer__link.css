@@ -1,3 +1,4 @@
+/* --- General styles --- */
 .footer__link {
     font-family: 'Inter', 'Helvetica', sans-serif;
     font-style: normal;
@@ -6,4 +7,16 @@
     font-size: 16px;
     line-height: 18px;
     color: #FFFFFF;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+}
+
+/* --- Small devices --- */
+@media screen and (max-width: 760px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 24px;
+    }
 }

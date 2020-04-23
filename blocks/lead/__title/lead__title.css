@@ -1,6 +1,8 @@
+/* --- General styles --- */
+
 .lead__title {
     margin: 0 auto;
-    padding-top: 64px;
+    padding: 64px 16px 0;
     text-align: center;
     font-family: 'Inter', 'Helvetica', sans-serif;
     font-style: normal;
@@ -8,4 +10,19 @@
     font-size: 96px;
     line-height: 100px;
     max-width: 720px;
+}
+
+/* --- Small laptop and tablets ---  */
+@media screen and (max-width: 1024px) {
+    .lead__title {
+        padding: 56px 16px 0;
+    }
+}
+
+/* --- Small devices --- */
+@media screen and (max-width: 720px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+    }
 }

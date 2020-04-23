@@ -1,0 +1,35 @@
+/* --- General styles --- */
+.cover__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 48px;
+    position: relative;
+}
+
+.cover__container:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(42, 44, 47, .3);
+    z-index: 1;
+    transition-property: background;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+
+.cover__container:hover:after{
+    background: rgba(42, 44, 47, .8);
+}
+
+/* --- Not laptops ---  */
+@media screen and (max-width: 1024px) {
+    .cover__container {
+        margin: 0;
+    }
+}

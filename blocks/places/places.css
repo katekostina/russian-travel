@@ -1,3 +1,25 @@
+/* --- General styles --- */
 .places {
-    padding: 100px 148px 90px;
+    padding: 92px 148px;
+}
+
+/* --- Big tablets --- */
+@media screen and (max-width: 1024px) {
+    .places {
+        padding: 92px 48px;
+    }
+}
+
+/* --- Big phones --- */
+@media screen and (max-width: 768px) {
+    .places {
+        padding: 88px 24px;
+    }
+}
+
+/* --- Small phones --- */
+@media screen and (max-width: 320px) {
+    .places {
+        padding: 64px 0px;
+    }
 }

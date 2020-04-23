@@ -1,4 +1,12 @@
+/* --- General styles --- */
 .place__website {
     align-self: end;
     padding-bottom: 5px;
+}
+
+/* --- Small mobile phones --- */
+@media screen and (max-width: 320px) {
+    .place__website {
+        display: none;
+    }
 }

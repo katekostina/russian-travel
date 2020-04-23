@@ -1,3 +1,4 @@
+/* --- General styles --- */
 .footer__copyright {
     margin: 0;
     font-family: 'Inter', 'Helvetica', sans-serif;
@@ -6,4 +7,12 @@
     font-size: 14px;
     line-height: 16px;
     color: #fff;
+}
+
+/* --- Small devices --- */
+@media screen and (max-width: 760px) {
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 14px;
+    }
 }

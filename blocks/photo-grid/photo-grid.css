@@ -1,9 +1,38 @@
 @import url(./__item/photo-grid__item.css);
 
+/* --- General styles --- */
 .photo-grid {
-    margin: 0 48px;
     display: grid;
+    padding: 0 48px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 16px;
+}
+
+/* --- Big tablets --- */
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        padding: 0 48px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 16px;
+    }
+}
+
+/* --- Big phones --- */
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        padding: 0 24px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+}
+
+/* --- Small phones --- */
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        padding: 0 16px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12, 1fr);
+    }
 }

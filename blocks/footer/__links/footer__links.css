@@ -1,8 +1,10 @@
+/* --- General styles --- */
 .footer__links {
     margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
+    flex-direction: row;
 }
 
 .footer__links li {
@@ -11,4 +13,20 @@
 
 .footer__links li:last-of-type {
     margin-right: 0;
+}
+
+/* --- Small devices --- */
+@media screen and (max-width: 760px) {
+    .footer__links {
+        flex-direction: column;
+    }
+
+    .footer__links li {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+
+    .footer__links li:last-of-type {
+        margin-bottom: 48px;
+    }
 }

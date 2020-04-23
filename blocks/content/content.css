@@ -1,0 +1,11 @@
+/* --- General styles --- */
+.content {
+    padding-bottom: 68px;
+}
+
+/* --- Tablets and phones--- */
+@media screen and (max-width: 768px) {
+    .content {
+        padding-bottom: 64px;
+    }
+}
