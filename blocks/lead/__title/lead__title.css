@@ -1,5 +1,4 @@
 /* --- General styles --- */
-
 .lead__title {
     margin: 0 auto;
     padding: 64px 16px 0;
@@ -10,6 +9,7 @@
     font-size: 96px;
     line-height: 100px;
     max-width: 720px;
+    text-rendering: optimizeLegibility;
 }
 
 /* --- Small laptop and tablets ---  */
