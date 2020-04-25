@@ -1,7 +1,6 @@
 /* --- General styles --- */
-
-.logo {
-    background-image: url(../../images/header-logo.svg);
+.header__logo {
+    background-image: url(../../../images/header-logo.svg);
     width: 176px;
     height: 52px;
     background-size: contain;
@@ -11,7 +10,7 @@
 
 /* --- 320 or less --- */
 @media screen and (max-width: 320px) {
-    .logo {
+    .header__logo {
         width: 142px;
         height: 42px;
     }

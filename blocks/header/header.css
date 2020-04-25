@@ -1,3 +1,7 @@
+@import url(./__logo/header__logo.css);
+@import url(./__lang-list/header__lang-list.css);
+@import url(./__lang-item/header__lang-item.css);
+
 /* --- General styles --- */
 .header {
     padding: 28px 48px 0;

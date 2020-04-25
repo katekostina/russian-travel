@@ -1,6 +1,7 @@
 @import url(./__title/intro__title.css);
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
+@import url(./__value/intro__value.css);
 
 /* --- General styles --- */
 .intro {

@@ -1,15 +1,7 @@
+@import url(./_active/header__lang-item_active.css);
+
 /* --- General styles --- */
-
-@import url(../lang/_active/lang_active.css);
-
-.lang {
-    margin: 0;
-    padding: 5px 0;
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 18px;
+.header__lang-item {
     font-family: 'Inter', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -19,7 +11,7 @@
 
 /* --- 320 or less --- */
 @media screen and (max-width: 320px) {
-    .lang {
+    .header__lang-item {
         font-size: 18px;
         line-height: 24px;
     }
