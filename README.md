@@ -1,17 +1,12 @@
-# Проект 3: Путешествие по России
+# Путешествие по России / Travel across Russia
+Учебный проект написанный на чистых HTML и CSS, используя БЭМ методологию. Реализована адаптивная grid-вёрстка. /
+Study project on pure HTML and CSS using BEM methodology. Adaptive grid layout is implemented.
 
-**Интро**
+**https://katekostina.github.io/russian-travel/**
 
-Проект о путешествии по России.
+### Screenshots / Скрины 
+<img align="left" width="400px" src="https://github.com/katekostina/russian-travel/blob/assets/demo-russian-travel-0.png">
+<img align="left" width="400px" src="https://github.com/katekostina/russian-travel/blob/assets/demo-russian-travel-1.png">
 
-**Figma**
-
-* [Ссылка на макет в Figma](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
-
-**Описание**
-
-Проект адаптивный. Сделан на html и css.
-
-**Проект в GitPages**
-
-* [Ссылка на проект](https://katekostina.github.io/russian-travel/)
+### To Do
+* Сделать переключение языка на английский
