@@ -5,8 +5,8 @@ Study project on pure HTML and CSS using BEM methodology. Adaptive grid layout i
 **https://katekostina.github.io/russian-travel/**
 
 ### Screenshots / Скрины 
-<img align="left" width="400px" src="https://github.com/katekostina/russian-travel/blob/assets/demo-russian-travel-0.png">
-<img align="left" width="400px" src="https://github.com/katekostina/russian-travel/blob/assets/demo-russian-travel-1.png">
+<img align="left" width="400px" src="https://github.com/katekostina/russian-travel/blob/master/demo-russian-travel-0.png"> <br/>
+<img align="left" width="400px" src="https://github.com/katekostina/russian-travel/blob/master/demo-russian-travel-1.png"> <br/>
 
 ### To Do
 * Сделать переключение языка на английский
